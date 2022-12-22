@@ -1,0 +1,11 @@
+---
+import ToogleMode from '../components/ToogleMode';
+import Layout from '../layouts/Layout.astro';
+---
+
+<Layout title="Welcome to Astro.">
+	<main class="min-h-screen bg-indigo-200 dark:bg-indigo-900">
+		<h1 class="text-blue-900 p-4 text-center text-7xl font-extrabold dark:text-stone-300">Titulo</h1>
+		<ToogleMode client:load />
+	</main>
+</Layout>
